@@ -1,0 +1,17 @@
+package br.com.healthtrack.entities.dao;
+
+import java.util.List;
+
+import br.com.healthtrack.entities.Atividade;
+
+public class AtividadeDAO {
+
+	public void getAll(List<Atividade> listaAtividades) {
+		
+		for(Atividade atividade : listaAtividades) {
+			System.out.println(atividade + "\n");
+		}
+		
+	}
+
+}

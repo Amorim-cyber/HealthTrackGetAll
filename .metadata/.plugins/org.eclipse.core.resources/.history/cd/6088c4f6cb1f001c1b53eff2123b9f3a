@@ -1,0 +1,29 @@
+package br.com.healthtrack.entities;
+
+public class LocalTreino {
+
+	private String endereco;
+	private Integer numero;
+	private String bairro;
+	private String cidade;
+	private String estado;
+	private String cep;
+	
+	public LocalTreino(String endereco, Integer numero, String bairro, String cidade, String estado, String cep) {
+		this.endereco = endereco;
+		this.numero = numero;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.estado = estado;
+		this.cep = cep;
+	}
+
+	@Override
+	public String toString() {
+		return "LocalTreino [endereco=" + endereco + ", numero=" + numero + ", bairro=" + bairro + ", cidade=" + cidade
+				+ ", estado=" + estado + ", cep=" + cep + "]";
+	}
+	
+	
+	
+}

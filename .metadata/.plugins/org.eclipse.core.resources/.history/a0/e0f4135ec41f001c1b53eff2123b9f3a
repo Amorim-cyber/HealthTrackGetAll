@@ -1,0 +1,76 @@
+package br.com.healthtrack.teste;
+
+import br.com.healthtrack.entities.Academia;
+import br.com.healthtrack.entities.Equipamento;
+import br.com.healthtrack.entities.Exercicio;
+import br.com.healthtrack.entities.LocalTreino;
+import br.com.healthtrack.entities.SegmentoCorporal;
+import br.com.healthtrack.entities.Video;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Academia[] academias = {
+				Academia.SMARTFIT,
+				Academia.BODYTECH,
+				Academia.COMPANHIAATHLETICA,
+				Academia.BIORITMO,
+				Academia.IRONBOX
+		};
+		
+		LocalTreino[] locais = {
+				new LocalTreino("Av. Dom Hélder Câmara",5229,"Cachambi",
+						"Rio de Janeiro","Rio de Janeiro","20771-001"),
+				new LocalTreino("Av. Américo Buaiz",200,"Enseada do Suá",
+						"Vitória","Espirito Santo","29050-902"),
+				new LocalTreino("Av. Roque Petroni Júnior",1089,"Chácara Santo Antônio (Zona Sul)",
+						"São Paulo","São Paulo","04707-000"),
+				new LocalTreino("R. Dr. Washington Luís",55,"Centro",
+						"Cabo de Santo Agostinho","Pernambuco","54510-440"),
+				new LocalTreino("Av. do Pepê",600,"Barra da Tijuca",
+						"Rio de Janeiro","Rio de Janeiro","22620-170")
+		};
+		
+		SegmentoCorporal[] segmentos = {
+				SegmentoCorporal.PEITO,
+				SegmentoCorporal.BRACOS,
+				SegmentoCorporal.COSTAS,
+				SegmentoCorporal.PERNAS,
+				SegmentoCorporal.ABDOMEN
+		};
+		
+		Video[] videos = {
+				new Video("Supino Reto com Barra - Exercício para Peito","0:59",
+						"https://www.youtube.com/watch?v=Kr2erpSyu3M"),
+				new Video("COMO FAZER TRÍCEPS TESTA COM BARRA W - Fisioprev","1:06",
+						"https://www.youtube.com/watch?v=-zCw46DgI5M"),
+				new Video("Exercício 5 Kettlebell Domyos - Glúteos/Costas - Exclusividade Decathlon","0:20",
+						"https://www.youtube.com/watch?v=xT45IujhS40"),
+				new Video("Agachamento livre com halteres","1:14",
+						"https://www.youtube.com/watch?v=taK1dUUT2_I"),
+				new Video("Treino top abdominal com bola","0:53",
+						"https://www.youtube.com/watch?v=KcCA0PzLKA8")
+		};
+		
+		Equipamento[] equipamentos = {
+				new Equipamento("Barra Reta + 4 Anilhas de 10 kg",40d),
+				new Equipamento("Barra W + 2 Anilhas de 5 kg",10d),
+				new Equipamento("Kettlebell de 10 kg",10d),
+				new Equipamento("2 Halteres de 10 kg",20d),
+				new Equipamento("Bola com peso de 20 kg",20d)
+				
+		};
+		
+		Exercicio[] exercicios = {
+				new Exercicio("Supino Reto com Barra",3,10),
+				new Exercicio("Tríceps Testa com Barra W",3,20),
+				new Exercicio("Kettlebell - Glúteos/Costas",3,12),
+				new Exercicio("Agachamento livre com halteres",4,12),
+				new Exercicio("Abdominal com bola",3,10)
+		};
+		
+
+	}
+
+}

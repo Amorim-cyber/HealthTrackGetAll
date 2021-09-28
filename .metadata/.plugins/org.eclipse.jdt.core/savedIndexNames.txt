@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\lucca\OneDrive\Documentos\outros\fiap\fase6\Cap2\.metadata\.plugins\org.eclipse.jdt.core
+3238597000.index
+1719852789.index
+1966668937.index

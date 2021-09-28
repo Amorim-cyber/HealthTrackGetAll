@@ -1,0 +1,5 @@
+package br.com.healthtrack.mock;
+
+public class Mock {
+
+}

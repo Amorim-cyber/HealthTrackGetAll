@@ -1,0 +1,22 @@
+package br.com.healthtrack.entities;
+
+public class Exercicio {
+	
+	private String nome;
+	private Integer numSets;
+	private Integer numRepeticoes;
+	
+	public Exercicio(String nome, Integer numSets, Integer numRepeticoes) {
+		this.nome = nome;
+		this.numSets = numSets;
+		this.numRepeticoes = numRepeticoes;
+	}
+
+	@Override
+	public String toString() {
+		return "Exercicio [nome=" + nome + ", numSets=" + numSets + ", numRepeticoes=" + numRepeticoes + "]";
+	}
+	
+	
+
+}

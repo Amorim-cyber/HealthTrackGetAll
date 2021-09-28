@@ -1,0 +1,25 @@
+package br.com.healthtrack.entities;
+
+public class Atividade {
+	
+	private Academia academia;
+	private Equipamento equipamento;
+	private Exercicio exercicio;
+	private Instrutor instrutor;
+	private LocalTreino local;
+	private Plano plano;
+	private SegmentoCorporal segmento;
+	private Turno turno;
+	private Usuario usuario;
+	private Video video;
+	
+	@Override
+	public String toString() {
+		return "Atividade [academia=" + academia.getValue() + ", equipamento=" + equipamento + ", exercicio=" + exercicio
+				+ ", instrutor=" + instrutor + ", local=" + local + ", plano=" + plano.getValue() + ", segmento=" + segmento.getValue()
+				+ ", turno=" + turno.getValue() + ", usuario=" + usuario + ", video=" + video + "]";
+	}
+	
+	
+
+}

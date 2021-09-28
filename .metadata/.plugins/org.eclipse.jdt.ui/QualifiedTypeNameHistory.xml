@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Academia"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.LocalTreino"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.SegmentoCorporal"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Video"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Equipamento"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Plano"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Usuario"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Instrutor"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Turno"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Atividade"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.mock.Mock"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.Exercicio"/>
+    <fullyQualifiedTypeName name="br.com.healthtrack.entities.dao.AtividadeDAO"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>
