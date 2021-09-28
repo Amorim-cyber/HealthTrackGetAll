@@ -34,7 +34,7 @@ Segue o <a href="https://github.com/Amorim-cyber/HealthTrack">Repositório</a> p
 
 #### Sobre a requisição getAll()
 
-Afim de ampliar o escopo do Healthtrack, estou testando novas inclussões. A ideia é incluir um registro de atividades físicas com diversas informações (o tipo de exercício, o equipamento utilizado, o instrutor que deu a aula). Criei o método teste getAll() para visualizar estas informações.
+Afim de ampliar o escopo do Healthtrack, estou testando novas inclusões. A ideia é incluir um registro de atividades físicas com diversas informações (o tipo de exercício, o equipamento utilizado, o instrutor que deu a aula). Criei o método teste getAll() para visualizar estas informações.
 
 A disposição das principais classes ficou da seguinte forma:
 
@@ -50,9 +50,51 @@ Siga os seguintes passos:
 
 1. Baixe o arquivo neste repositório
 
+<img src="assets/passo1.png" style="border: solid grey; border-radius:4px"></img>
+
+2. Extraia o arquivo e salve em um diretório de sua escolha 
+
+<img src="assets/passo2.png" style="border: solid grey; border-radius:4px"></img>
+
+3. Clique no arquivo descompactado (nesse exemplo coloquei na pasta downloads) e em seguida clique na aplicação "GetAll"
+
+<img src="assets/passo3.png" style="border: solid grey; border-radius:4px"></img>
+
+##### PRONTO
+
+A aplicação está pronta para uso.
+
+<img src="assets/fim.png" style="border: solid grey; border-radius:4px"></img>
 
 
 
+<hr>
 
+### Navegação
 
+Segue guia de uso do sistema 
+
+* INÍCIO
+
+  Tela de início, o usuário tem a opção de visualizar ou não todas as atividades
+
+  <img src="assets/inicio.png" style="border: solid grey; border-radius:4px"></img>
+
+* RESULTADO
+
+  Caso o usuário aceita visualizar as atividades o programa irá imprimir os dados das atividades
+
+  <img src="assets/resultado.png" style="border: solid grey; border-radius:4px"></img>
+
+<hr>
+
+### Considerações finais
+
+Siga todos os passos desse README que o sistema irá funcionar corretamente
+
+A aplicação irá printar 5 atividades com dados imputados de forma aleatória
+
+O intuito do projeto foi replicar um chamado que futuramente poderá ser aplicado de uma forma mais avançada conforme a evolução do projeto. Por hora ele nos ajuda a entender melhor como os dados irão se encaixar
+
+### FORTE ABRAÇO ! :smile:
 
