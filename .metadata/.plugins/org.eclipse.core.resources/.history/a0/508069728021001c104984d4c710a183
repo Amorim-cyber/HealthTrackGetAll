@@ -1,9 +1,12 @@
 package br.com.healthtrack.teste;
 
-
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
+import br.com.healthtrack.entities.Atividade;
 import br.com.healthtrack.entities.dao.AtividadeDAO;
+import br.com.healthtrack.mock.Mock;
 
 public class Teste {
 

@@ -72,6 +72,7 @@
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
 			<item value="Starter/GetAll.jar"/>
 			<item value="Starter\Teste.jar"/>
+			<item value="Starter\GetAll.jar"/>
 			<item value="Starter/Teste.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
